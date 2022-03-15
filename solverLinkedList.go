@@ -88,7 +88,7 @@ func solveBoardItterator(initialBoard Node, goalNode Node) {
 	finalNode = searchSpace.last.value
 
 	printNodeTrace(finalNode)
-	fmt.Printf("time elapsed %d, node depth: %d", endTime-startTime, getNodeDepth(finalNode))
+	fmt.Printf("time elapsed %d, node depth: %d\n", endTime-startTime, getNodeDepth(finalNode))
 
 }
 

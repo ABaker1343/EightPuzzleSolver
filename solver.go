@@ -45,7 +45,7 @@ func solveBoard(initialBoard Node, goalNode Node) {
 	endTime := time.Now().Unix()
 
 	printNodeTrace(finalNode)
-	fmt.Printf("time elapsed %d, node depth: %d", endTime-startTime, getNodeDepth(finalNode))
+	fmt.Printf("time elapsed %d, node depth: %d\n", endTime-startTime, getNodeDepth(finalNode))
 
 }
 
